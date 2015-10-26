@@ -87,6 +87,9 @@ def on_message(message):
 		if  message.channel.id == sfw_channel:	
 			client.delete_message(message)
 			client.send_message(message.channel, 'Bit.ly en Konachan WRONG')
+			
+	if message.content.startswith('!repo'):
+		client.send_message(message.channel, 'https://github.com/Rivalo/gerard-bot')
 
 
 
