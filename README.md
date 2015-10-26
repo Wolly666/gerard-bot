@@ -23,7 +23,7 @@ Gerard-senpai delivering the dankest memes to the ELCO Discord chat.
 - `!aaa [string]` Gerard answers your question
 
 ### Useful commands
-- `!buien OR !buienradar OR !weer OR !regen' Displays buienradar, Imgur API required
+- `!buien OR !buienradar OR !weer OR !regen` Displays buienradar, Imgur API required
 - `!updatebuien` Caches buienradar image, Imgur API required
 
 ### Admin commands
