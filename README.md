@@ -11,8 +11,6 @@ Gerard-senpai delivering the dankest memes to the ELCO Discord chat.
 
 ## Usage
 ### Basic Functions
-- `!help` View help
-- `!changelog` View changelog 
 - `!google [string]` Google for string
 - `!hallo` Gerard says hello
 - `!repo` Shows this repository
@@ -31,5 +29,11 @@ Gerard-senpai delivering the dankest memes to the ELCO Discord chat.
 - `!kanaal` Change channel name
 - `!motd` Change channel description
 
+### Deprecated commands
+- `!help` Viewed help, shows repo now
+- `!changelog` Viewed changelog, shows repo now
+
+##TO-DO
+-Audio support
 
 
