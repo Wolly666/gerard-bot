@@ -61,6 +61,10 @@ def on_message(message):
 		else:
 			ecchi = random.choice(open('ecchi').readlines())
 			client.send_message(message.channel, ecchi)
+	
+	if message.content.startswith('!kpop'):
+		kpop = random.choice(open('kpop').readlines())
+		client.send_message(message.channel, kpop)
 		
 	if message.content.startswith('!aaa'):
 		client.send_message(message.channel, 'AAAA {}, LET MIE TINK OF THAT KWESTJUN'.format(message.author.mention()))
